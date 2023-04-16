@@ -20,8 +20,7 @@ const App = () => {
       setQuote('');
     }
   };
-
- const renderKeys = () => {
+  const renderKeys = () => {
    
     return keys.map((keyValue) => (
       <button key={`key-${keyValue}`} id={`key-${keyValue === ' ' ? 'space' : keyValue}`} onClick={() => handleClick(keyValue)}>
@@ -42,4 +41,4 @@ const App = () => {
 
 
 
-export default App;
+export default App;
